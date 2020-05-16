@@ -9,8 +9,11 @@ Seeking to improve the efficiency of the program I implemented a hashtable data 
 
 The program can be run with just the input file name as the sole argument, or include an argument flagged with -e to indicate a file containing words to exclude from the concordance:
 
-Example invocation: 
+Example invocations: 
+
 ./kwoc3 inputLatin.txt
+
 ./kwoc3 -e latin.text inputLatin.txt
+
 ./kwoc3 inputEnglish.txt -e english.txt
 
