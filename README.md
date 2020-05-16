@@ -7,7 +7,7 @@ The focus of the assignment was the correct usage and management of dynamic memo
 Although runtime was not an integral part of the grading criteria, the scale of the larger tests produced some noticeable slowdown when the suggested dynamic array or linked-list data structures were used.
 Seeking to improve the efficiency of the program I implemented a hashtable data structure (wordHashTable.c) in C99 and was able to improve the runtime of the program from quadratic to linear.
 
-The program can be run with just the input file name as the sole argument, or include an argument flagged with -e to indicate a file containing words to exclude from the concordance:
+The program can be run with just the input file name as the sole argument, or include an argument flagged with -e that contains words to be excluded from the concordance.
 
 Example invocations: 
 
