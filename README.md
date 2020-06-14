@@ -33,7 +33,7 @@ Once the requisite data structures had been written the implementation was very 
 
 This project was an enjoyable assignment that allowed a lot of freedom in the design decisions. It was a lot of fun to write a hashtable structure that I had often used a library implementation of, and see the efforts pay off via improvements in the programs runtime.
 
-The program may be run with just the input file name as the sole argument, or include an argument flagged with -e that contains words to be excluded from the concordance.
+The program should be compiled with the included makefile, and may be run with just the input file name as the sole argument, or include an argument flagged with -e that contains words to be excluded from the concordance.
 
 Example invocations: 
 
