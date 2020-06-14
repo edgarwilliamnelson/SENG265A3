@@ -20,7 +20,7 @@ Once the requisite data structures had been written the implementation was very 
 
 	The collection of keywords should be sorted alphabetically, and we will have to linerally scan over the collection anyway when producing the output, thus storing the keywords in a linked-list data structure seemed to be a reasonable choice. 
 
-	b: Every line of the text file is stored in its own hashtable data structure, the keys in the table are the words that are present in the line and the values are the number of occurences of the word. We store the number of occurrences as a line with mutiple occurrences of a word should be formatted differently in the output.
+	b: Every line of the text file is stored in its own hashtable data structure, the keys in the table are the words that are present in the line and the values are the number of occurences of the word in the line. We store the number of occurrences becuase if a word appears more than once it should be indicated in the output.
 	These hashtables are then stored in order in a linked-list data structure. 
 
 	Doing both of these tasks concurrently allows us to only require a single scan of the text to gather all the information we need.
