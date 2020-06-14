@@ -20,18 +20,18 @@ Once the requisite data structures had been written the implementation was very 
 
 	The collection of keywords should be sorted alphabetically, and we will have to linerally scan over the collection anyway when producing the output, thus storing the keywords in a linked-list data structure seemed to be a reasonable choice. 
 
-	b: Every line is stored in its own hashtable data structure, the keys in the table are the words that are present in the line and the values are the number of occurences of the word.
+	b: Every line of the text file is stored in its own hashtable data structure, the keys in the table are the words that are present in the line and the values are the number of occurences of the word. We store the number of occurrences as a line with mutiple occurrences of a word should be formatted differently in the output.
 	These hashtables are then stored in order in a linked-list data structure. 
 
 	Doing both of these tasks concurrently allows us to only require a single scan of the text to gather all the information we need.
 
-3) Sort the collection of keywords.
+3) Sort the collection of keywords alphabetically.
 
 4) Produce the output. 
 
-	For each keyword we query each of the hashtables that are maintaing the text that we set up in step 2. Having used a hashtable structure for each line allows us to check if a word is present in a line in constant time rather than having to scan the line again. If the hashtable returns that a word is present in that line, we simply print the word, the line, and the line number. Allowing a reader the see context of each keyword present in the text.
+	For each keyword, we query each of the hashtables that are maintaing the text that we set up in step 2. Having used a hashtable structure for each line allows us to check if a word is present in a line in constant time rather than having to scan the line again. If the hashtable returns that a word is present in that line, we print the word, the line, and the line number. Allowing a reader the see each keyword in the text, and the context of where it appears.
 
-This project was an enjoyable assignment that allowed a lot of freedom in the design decisions. It was a lot of fun to write a hashtable structure that I had often used a library implementation of, and see the efforts pay off via improvements in the programs runtime.
+This project was an enjoyable assignment that allowed a lot of freedom in terms of design decisions. It was a lot of fun to write a hashtable structure that I had often used a library implementation of, and see the efforts pay off via improvements in the programs runtime.
 
 The program should be compiled with the included makefile, and may be run with just the input file name as the sole argument, or include an argument flagged with -e that contains words to be excluded from the concordance.
 
