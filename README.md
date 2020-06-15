@@ -16,7 +16,7 @@ Once the requisite data structures had been written the implementation was very 
 
 2) Scan over the text, two tasks are accomplished here:
 
-	A: Scan over the text file and determine what words should be in included in the concordance, this is simply the words that are not present in the excluded words file. Having stored the words to be excluded in a hashtable structure allows us to query if a word from the text is to be excluded from the concordance in constant time.
+	A: We determine what words should be in included in the concordance, this is simply the words that are not present in the excluded words file. Having stored the words to be excluded in a hashtable structure allows us to query if a word from the text is to be excluded from the concordance in constant time.
 
 	The collection of keywords should be sorted alphabetically, and we will have to linerally scan over the collection anyway when producing the output, thus storing the keywords in a linked-list data structure seemed to be a reasonable choice. 
 
