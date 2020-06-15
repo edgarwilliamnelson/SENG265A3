@@ -27,7 +27,7 @@ Once the requisite data structures had been written the implementation was very 
 
 3) Produce the output. 
 
-	For each keyword, we query each of the hashtables that are maintaing the text that we set up in step 2. Having used a hashtable structure for each line allows us to check if a word appears in a line in constant time rather than having to scan the line again. If the hashtable returns that a word is present in that line, we print the word, the line, and the line number. Allowing a reader to see each keyword in the text, and the context of where it appears.
+	For each keyword, we query each of the hashtables that are maintaing the text that we set up in step 2. Having used a hashtable structure for each line allows us to check if a keyword appears in a line in constant time rather than having to scan the line again. If the hashtable returns that the current keyword is present in that line, we print the keyword, the line, and the line number. Allowing a reader to see each keyword in the text, and the context of where it appears.
 
 This project was an enjoyable assignment that allowed a lot of freedom in terms of design decisions. It was a lot of fun to write a hashtable structure that I had often used a library implementation of, and see the efforts pay off via improvements in the programs runtime.
 
