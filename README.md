@@ -10,7 +10,7 @@ Although runtime was not an integral part of the grading criteria, the scale of 
 
 Seeking to improve the efficiency of the program I implemented a hashtable data structure (wordHashTable.c) in C99 and was able to improve the runtime of the program from quadratic to linear.
 
-Once the requisite data structures had been written the implementation was very straightforward. The algorithm proceeds in four steps:
+Once the requisite data structures had been written the implementation was very straightforward. The algorithm proceeds in three steps:
 
 1) Parse the file of words to be excluded and store them in a HashTable (being used as a set in this circumstance).  
 
@@ -25,9 +25,7 @@ Once the requisite data structures had been written the implementation was very 
 
 	Doing both of these tasks concurrently allows us to only require a single scan of the text to gather all the information we need.
 
-3) Sort the collection of keywords alphabetically.
-
-4) Produce the output. 
+3) Produce the output. 
 
 	For each keyword, we query each of the hashtables that are maintaing the text that we set up in step 2. Having used a hashtable structure for each line allows us to check if a word is present in a line in constant time rather than having to scan the line again. If the hashtable returns that a word is present in that line, we print the word, the line, and the line number. Allowing a reader to see each keyword in the text, and the context of where it appears.
 
