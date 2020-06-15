@@ -18,7 +18,7 @@ Once the requisite data structures had been written the implementation was very 
 
 	A: We determine what words should be in included in the concordance, this is simply the words that are not present in the excluded words file. Having stored the words to be excluded in a hashtable structure allows us to query if a word from the text is to be excluded from the concordance in constant time.
 
-	The collection of keywords should be sorted alphabetically, and we will have to linerally scan over the collection anyway when producing the output, thus storing the keywords in a linked-list data structure seemed to be a reasonable choice. 
+	The collection of keywords should be sorted alphabetically, and we will have to linearly scan over the collection anyway when producing the output, thus storing the keywords in a linked-list data structure seemed to be a reasonable choice. 
 
 	B: Every line of the text file is stored in its own hashtable data structure, the keys in the table are the words that are present in the line and the values are the number of occurences of the word in the line. We store the number of occurrences becuase if a word appears more than once it should be indicated in the output.
 	These hashtables are then stored in order in a linked-list data structure. 
