@@ -1,4 +1,7 @@
-An invocation with the following text as the main argument and with common english words to be excluded (english.txt in the A3 directory) produces the output seen beneath:
+An invocation with the following text as the main argument and with common english words to be excluded (english.txt in the A3 directory)
+produces the output seen beneath:
+
+--INPUT--
 
 "I hope you will be ready to own publicly whenever you shall
 be called to it that by your great and frequent urgency you
@@ -41,8 +44,7 @@ vehicle as if they were brutes and those the rational
 creatures and indeed to avoid so monstrous and detestable a
 sight was one principal motive of my retirement hither"
 
-----------------------------------------
-
+--OUTPUT--
 
 ABOUT          that kind particularly a paragraph about her majesty queen (11)
 ABOUT          which i spoke so many years ago and at about five thousand (32)
