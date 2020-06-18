@@ -1,4 +1,5 @@
-An invocation with the following text as the main argument and with common english words to be excluded (english.txt in the A3 directory)
+An invocation with the following text as the main argument
+and with common english words to be excluded (english.txt in the A3 directory)
 produces the output seen beneath:
 
 --INPUT--
