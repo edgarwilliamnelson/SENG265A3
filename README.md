@@ -33,7 +33,7 @@ This project was an enjoyable assignment that allowed a lot of freedom in terms 
 
 The program should be compiled with the included makefile, and may be run with just the input file name as the sole argument, or include an argument flagged with -e that contains words to be excluded from the concordance.
 
-Example invocations: 
+Example invocations:
 
 ./kwoc3 inputLatin.txt
 
