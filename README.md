@@ -33,6 +33,8 @@ This project was an enjoyable assignment that allowed a lot of freedom in terms 
 
 The program should be compiled with the included makefile, and may be run with just the input file name as the sole argument, or include an argument flagged with -e that contains words to be excluded from the concordance.
 
+Under the scope of the assignment it was set that any keyword in the text would be at most 40 characters in length, and any line would be at most 100 characters.
+
 Example invocations:
 
 ./kwoc3 inputLatin.txt
