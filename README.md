@@ -1,7 +1,7 @@
 Final C programming assignment for SENG265 at the University of Victoria.
 This project is written in C99 and achieved a grade of 100%. 
 
-Tasked to create a text processing program that generates a concordance for a given text file. (kwoc3.c) The project code may be viewed in the A3 subdirectory.
+Tasked to create a text processing program that generates a concordance for a given text file. The project code may be viewed in the A3 subdirectory, with the main program written in kwoc3.c ("keyword out of context").
 
 On my first reading of the assignment concordance was a new word to me, it is simply an alphabetical list of keywords in a body of text. An example of the programs output can be viewed in exampleInvocation.txt.
 
