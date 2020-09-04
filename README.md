@@ -3,7 +3,7 @@ This project is written in C99 and achieved a grade of 100%.
 
 Tasked to create a text processing program that generates a concordance for a given text file. (kwoc3.c) The project code may be viewed in the A3 subdirectory.
 
-On my first reading of the assignment concordance was a new word to me, it is essentially simply an alphabetical list of keywords in a body of text. An example of the programs output can be viewed in exampleInvocation.txt.
+On my first reading of the assignment concordance was a new word to me, it is simply an alphabetical list of keywords in a body of text. An example of the programs output can be viewed in exampleInvocation.txt.
 
 The focus of the assignment was the correct usage and management of dynamic memory in C. 
 Although runtime was not an integral part of the grading criteria, the scale of the larger tests produced some noticeable slowdown when the suggested dynamic array or linked-list data structures were used.
